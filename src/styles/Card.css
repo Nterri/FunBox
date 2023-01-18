@@ -1,0 +1,234 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.card.ended {
+    pointer-events: none;
+}
+
+.card__ended {
+    color: #FFFF66;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.card.selected .content-card {
+    border: 4px solid #D91667;
+}
+
+.card.ended .content-card {
+    border: 4px solid #B3B3B3;
+    background-color: #F2F2F2;
+}
+
+.card.ended .content-card::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #F2F2F2;
+    opacity: 0.5;
+}
+
+.card.ended .pre-title-text__desk, .card.ended .text-content__title, .card.ended .text-content__title-with {
+    opacity: 0.5;
+}
+
+.card.ended .text-content__list {
+    display: none;
+}
+
+.card.selected .content-card::after {
+    background: #D91667;
+}
+
+.card.ended .content-card::after {
+    background: #B3B3B3;
+}
+
+.card.selected .weight-content {
+    background: #D91667;
+}
+
+.card.ended .weight-content {
+    background: #B3B3B3;
+}
+
+.card.selected .card__link {
+    display: none;
+}
+
+.card.selected .card__desk {
+    display: block;
+}
+
+.card.selected .card__content:hover .pre-title-text .pre-title-text__desk.desk-text {
+    display: none;
+}
+
+.card.selected .card__content:hover .pre-title-text .pre-title-text__cancel.cancel-text {
+    display: block;
+}
+
+.card__content {
+    flex: 1 1 auto;
+    min-height: 480px;
+    width: 100%;
+    max-width: 320px;
+    padding: 21px 51px 253px;
+    cursor: pointer;
+}
+
+@media (max-width: 350px) {
+    .card__content {
+        padding: 21px 40px 253px;
+        max-width: 290px;
+    }
+}
+
+.content-card {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    border: 4px solid #1698D9;
+    border-radius: 12px;
+    position: relative;
+    background-color: #F2F2F2;
+    background-image: url('/src/images/cat.png');
+    background-position: -24px calc(100% + 88px);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    clip-path: polygon(0 48px, 48px 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.content-card::after {
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    top: 20px;
+    left: -18px;
+    transform: rotate(-45deg);
+    background: #1698D9;
+}
+
+.content-card__text {
+    pointer-events: none;
+}
+
+.text-content {
+    color: #000000;
+    font-family: 'Trebuchet MS Regular';
+}
+
+.text-content__pre-title, .text-content__list {
+    color: #666666;
+}
+
+.text-content__pre-title {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.text-content__pre-title:not(:last-child) {
+    margin: 0 0 5px;
+}
+
+.pre-title-text .pre-title-text__cancel {
+    color: #E62E7A;
+    display: none;
+}
+
+.text-content__title {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.text-content__title-with {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text-content__title-with:not(:last-child) {
+    margin: 0 0 15px;
+}
+
+.text-content__title, .text-content__title-withFood {
+    font-family: 'Trebuchet MS Bold';
+}
+
+.text-content__list {
+    font-size: 14px;
+    line-height: 16px;
+    list-style-type: none;
+    margin: 0 0 10px;
+}
+
+.text-content__list span {
+    font-family: 'Trebuchet MS Bold';
+}
+
+.card__link, .card__desk {
+    font-family: 'Trebuchet MS Regular';
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.card__link span {
+    color: #1698D9;
+    position: relative;
+    cursor: pointer;
+}
+.card__link span::after {
+    content: '';
+    position: absolute;
+    width: 83%;
+    height: 1px;
+    bottom: 0;
+    transform: translate(0, 20%);
+    left: 0;
+    border-bottom: 1px dashed #1698D9;
+}
+
+.card__desk {
+    display: none;
+}
+
+.content-card__weight {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 16px;
+    right: 16px;
+    pointer-events: none;
+}
+
+.weight-content {
+    background: #1698D9;
+    border-radius: 50%;
+    padding: 17.5px 0 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trebuchet MS Regular';
+}
+
+.weight-content__count {
+    font-size: 42px;
+    line-height: 22px;
+}
+
+.weight-content__kg {
+    font-size: 21px;
+    line-height: 22px;
+}

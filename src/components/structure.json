@@ -1,0 +1,33 @@
+[
+  {
+    "preTitle": "Сказочное заморское яство",
+    "mainTitle": "Нямушка",
+    "titleWith": "с фуа-гра",
+    "portions": "10",
+    "mouse": "0",
+    "currentWeight": "0,5",
+    "desk": "Печень утки разварная с артишоками.",
+    "ended": "true"
+  },
+  {
+    "preTitle": "Сказочное заморское яство",
+    "mainTitle": "Нямушка",
+    "titleWith": "с рыбой",
+    "portions": "40",
+    "mouse": "2",
+    "currentWeight": "2",
+    "desk": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    "ended": "false"
+  },
+  {
+    "preTitle": "Сказочное заморское яство",
+    "mainTitle": "Нямушка",
+    "titleWith": "с фуа-гра",
+    "portions": "100",
+    "mouse": "5",
+    "satisfied": "true",
+    "currentWeight": "5",
+    "desk": "Филе из цыплят с трюфелями в бульоне.",
+    "ended": "false"
+  }
+]

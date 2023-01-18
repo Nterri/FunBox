@@ -1,0 +1,5 @@
+select, select:focus {
+    outline: 0;
+    padding: 10px;
+    cursor: pointer;
+}

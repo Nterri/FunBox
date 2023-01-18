@@ -1,0 +1,20 @@
+.title {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+.title:not(:last-child) {
+    margin: 0 0 24px;
+}
+
+.content {
+}
+
+.content__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
