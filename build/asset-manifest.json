@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2774c94.css",
-    "main.js": "/static/js/main.422d2612.js",
-    "static/media/cat.png": "/static/media/cat.5a59a8dfb85bee52c6a8.png",
-    "static/media/TrebuchetMS.woff": "/static/media/TrebuchetMS.af3cbb0e7a5aaa5aad48.woff",
-    "static/media/TrebuchetMS-Bold.woff": "/static/media/TrebuchetMS-Bold.ed76e98b5ec0933d740e.woff",
-    "static/media/Exo2.0-Thin.otf": "/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
-    "static/media/background.png": "/static/media/background.d6f07f8ed5f5049a96ce.png",
-    "index.html": "/index.html",
-    "main.d2774c94.css.map": "/static/css/main.d2774c94.css.map",
-    "main.422d2612.js.map": "/static/js/main.422d2612.js.map"
+    "main.css": "/FunBox/build/static/css/main.d2774c94.css",
+    "main.js": "/FunBox/build/static/js/main.422d2612.js",
+    "static/media/cat.png": "/FunBox/build/static/media/cat.5a59a8dfb85bee52c6a8.png",
+    "static/media/TrebuchetMS.woff": "/FunBox/build/static/media/TrebuchetMS.af3cbb0e7a5aaa5aad48.woff",
+    "static/media/TrebuchetMS-Bold.woff": "/FunBox/build/static/media/TrebuchetMS-Bold.ed76e98b5ec0933d740e.woff",
+    "static/media/Exo2.0-Thin.otf": "/FunBox/build/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "static/media/background.png": "/FunBox/build/static/media/background.d6f07f8ed5f5049a96ce.png",
+    "index.html": "/FunBox/build/index.html",
+    "main.d2774c94.css.map": "/FunBox/build/static/css/main.d2774c94.css.map",
+    "main.422d2612.js.map": "/FunBox/build/static/js/main.422d2612.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2774c94.css",
-    "static/js/main.422d2612.js"
+    "/FunBox/buildstatic/css/main.d2774c94.css",
+    "/FunBox/buildstatic/js/main.422d2612.js"
   ]
 }
